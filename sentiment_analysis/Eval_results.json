@@ -1,0 +1,1232 @@
+{
+    "BART CASE TAGGER RU Base": {
+        "Best Hyperparameters": {
+            "lr": 0.0002641788999548412,
+            "num_layers": 4,
+            "layer_reduction": 0.4300519404934514,
+            "batch_size": 128,
+            "epochs": 30
+        },
+        "Train Accuracy": 0.54,
+        "Test Accuracy": 0.5,
+        "Train Precision": {
+            "negative": 0.49,
+            "neutral": 0.63,
+            "positive": 0.43
+        },
+        "Train Recall": {
+            "negative": 0.62,
+            "neutral": 0.43,
+            "positive": 0.66
+        },
+        "Train F1 Score": {
+            "negative": 0.51,
+            "neutral": 0.51,
+            "positive": 0.48
+        },
+        "Test Precision": {
+            "negative": 0.45,
+            "neutral": 0.59,
+            "positive": 0.38
+        },
+        "Test Recall": {
+            "negative": 0.58,
+            "neutral": 0.4,
+            "positive": 0.61
+        },
+        "Test F1 Score": {
+            "negative": 0.47,
+            "neutral": 0.47,
+            "positive": 0.44
+        }
+    },
+    "BART CASE TAGGER RU Lemmatize + StopWords": {
+        "Best Hyperparameters": {
+            "lr": 0.001028445222500066,
+            "num_layers": 5,
+            "layer_reduction": 0.5115859880816279,
+            "batch_size": 256,
+            "epochs": 30
+        },
+        "Train Accuracy": 0.54,
+        "Test Accuracy": 0.51,
+        "Train Precision": {
+            "negative": 0.42,
+            "neutral": 0.56,
+            "positive": 0.28
+        },
+        "Train Recall": {
+            "negative": 0.4,
+            "neutral": 0.66,
+            "positive": 0.5
+        },
+        "Train F1 Score": {
+            "negative": 0.4,
+            "neutral": 0.56,
+            "positive": 0.34
+        },
+        "Test Precision": {
+            "negative": 0.37,
+            "neutral": 0.54,
+            "positive": 0.24
+        },
+        "Test Recall": {
+            "negative": 0.34,
+            "neutral": 0.64,
+            "positive": 0.44
+        },
+        "Test F1 Score": {
+            "negative": 0.35,
+            "neutral": 0.55,
+            "positive": 0.3
+        }
+    },
+    "BART CASE TAGGER RU Lemmatize": {
+        "Best Hyperparameters": {
+            "lr": 0.0009132659404330533,
+            "num_layers": 5,
+            "layer_reduction": 0.5898751917996012,
+            "batch_size": 256,
+            "epochs": 30
+        },
+        "Train Accuracy": 0.54,
+        "Test Accuracy": 0.5,
+        "Train Precision": {
+            "negative": 0.5,
+            "neutral": 0.54,
+            "positive": 0.45
+        },
+        "Train Recall": {
+            "negative": 0.67,
+            "neutral": 0.42,
+            "positive": 0.64
+        },
+        "Train F1 Score": {
+            "negative": 0.53,
+            "neutral": 0.46,
+            "positive": 0.51
+        },
+        "Test Precision": {
+            "negative": 0.45,
+            "neutral": 0.51,
+            "positive": 0.4
+        },
+        "Test Recall": {
+            "negative": 0.62,
+            "neutral": 0.39,
+            "positive": 0.58
+        },
+        "Test F1 Score": {
+            "negative": 0.48,
+            "neutral": 0.43,
+            "positive": 0.45
+        }
+    },
+    "BART CASE TAGGER RU Stemming + StopWords": {
+        "Best Hyperparameters": {
+            "lr": 0.0008555343198993229,
+            "num_layers": 4,
+            "layer_reduction": 0.4259384799962676,
+            "batch_size": 128,
+            "epochs": 30
+        },
+        "Train Accuracy": 0.43,
+        "Test Accuracy": 0.41,
+        "Train Precision": {
+            "negative": 0.32,
+            "neutral": 0.34,
+            "positive": 0.26
+        },
+        "Train Recall": {
+            "negative": 0.57,
+            "neutral": 0.34,
+            "positive": 0.43
+        },
+        "Train F1 Score": {
+            "negative": 0.38,
+            "neutral": 0.32,
+            "positive": 0.29
+        },
+        "Test Precision": {
+            "negative": 0.29,
+            "neutral": 0.32,
+            "positive": 0.24
+        },
+        "Test Recall": {
+            "negative": 0.55,
+            "neutral": 0.33,
+            "positive": 0.4
+        },
+        "Test F1 Score": {
+            "negative": 0.36,
+            "neutral": 0.31,
+            "positive": 0.26
+        }
+    },
+    "BART CASE TAGGER RU Stemming": {
+        "Best Hyperparameters": {
+            "lr": 0.0005703296944610928,
+            "num_layers": 5,
+            "layer_reduction": 0.5087580809418322,
+            "batch_size": 128,
+            "epochs": 30
+        },
+        "Train Accuracy": 0.46,
+        "Test Accuracy": 0.42,
+        "Train Precision": {
+            "negative": 0.35,
+            "neutral": 0.41,
+            "positive": 0.36
+        },
+        "Train Recall": {
+            "negative": 0.38,
+            "neutral": 0.43,
+            "positive": 0.64
+        },
+        "Train F1 Score": {
+            "negative": 0.33,
+            "neutral": 0.41,
+            "positive": 0.4
+        },
+        "Test Precision": {
+            "negative": 0.29,
+            "neutral": 0.38,
+            "positive": 0.31
+        },
+        "Test Recall": {
+            "negative": 0.34,
+            "neutral": 0.41,
+            "positive": 0.58
+        },
+        "Test F1 Score": {
+            "negative": 0.29,
+            "neutral": 0.38,
+            "positive": 0.35
+        }
+    },
+    "BART EN Base": {
+        "Best Hyperparameters": {
+            "lr": 0.0012434381900999025,
+            "num_layers": 5,
+            "layer_reduction": 0.5303623592933843,
+            "batch_size": 256,
+            "epochs": 30
+        },
+        "Train Accuracy": 0.5,
+        "Test Accuracy": 0.49,
+        "Train Precision": {
+            "negative": 0.22,
+            "neutral": 0.45,
+            "positive": 0.34
+        },
+        "Train Recall": {
+            "negative": 0.39,
+            "neutral": 0.54,
+            "positive": 0.49
+        },
+        "Train F1 Score": {
+            "negative": 0.27,
+            "neutral": 0.46,
+            "positive": 0.38
+        },
+        "Test Precision": {
+            "negative": 0.22,
+            "neutral": 0.44,
+            "positive": 0.34
+        },
+        "Test Recall": {
+            "negative": 0.38,
+            "neutral": 0.53,
+            "positive": 0.48
+        },
+        "Test F1 Score": {
+            "negative": 0.26,
+            "neutral": 0.46,
+            "positive": 0.37
+        }
+    },
+    "BART EN Lemmatize + Stopwords": {
+        "Best Hyperparameters": {
+            "lr": 0.0001491211655685879,
+            "num_layers": 4,
+            "layer_reduction": 0.5303877256771474,
+            "batch_size": 128,
+            "epochs": 30
+        },
+        "Train Accuracy": 0.48,
+        "Test Accuracy": 0.47,
+        "Train Precision": {
+            "negative": 0.14,
+            "neutral": 0.41,
+            "positive": 0.28
+        },
+        "Train Recall": {
+            "negative": 0.22,
+            "neutral": 0.53,
+            "positive": 0.51
+        },
+        "Train F1 Score": {
+            "negative": 0.17,
+            "neutral": 0.42,
+            "positive": 0.34
+        },
+        "Test Precision": {
+            "negative": 0.13,
+            "neutral": 0.4,
+            "positive": 0.28
+        },
+        "Test Recall": {
+            "negative": 0.21,
+            "neutral": 0.52,
+            "positive": 0.51
+        },
+        "Test F1 Score": {
+            "negative": 0.16,
+            "neutral": 0.42,
+            "positive": 0.33
+        }
+    },
+    "BART EN Lemmatize": {
+        "Best Hyperparameters": {
+            "lr": 0.0007837907088498994,
+            "num_layers": 4,
+            "layer_reduction": 0.4517241953499818,
+            "batch_size": 256,
+            "epochs": 30
+        },
+        "Train Accuracy": 0.41,
+        "Test Accuracy": 0.4,
+        "Train Precision": {
+            "negative": 0.26,
+            "neutral": 0.38,
+            "positive": 0.33
+        },
+        "Train Recall": {
+            "negative": 0.71,
+            "neutral": 0.28,
+            "positive": 0.46
+        },
+        "Train F1 Score": {
+            "negative": 0.36,
+            "neutral": 0.3,
+            "positive": 0.37
+        },
+        "Test Precision": {
+            "negative": 0.25,
+            "neutral": 0.37,
+            "positive": 0.32
+        },
+        "Test Recall": {
+            "negative": 0.7,
+            "neutral": 0.27,
+            "positive": 0.45
+        },
+        "Test F1 Score": {
+            "negative": 0.35,
+            "neutral": 0.29,
+            "positive": 0.36
+        }
+    },
+    "BART EN Stemming + Stopwords": {
+        "Best Hyperparameters": {
+            "lr": 0.00017410608874965746,
+            "num_layers": 4,
+            "layer_reduction": 0.3062739614143124,
+            "batch_size": 256,
+            "epochs": 30
+        },
+        "Train Accuracy": 0.34,
+        "Test Accuracy": 0.34,
+        "Train Precision": {
+            "negative": 0.21,
+            "neutral": 0.23,
+            "positive": 0.19
+        },
+        "Train Recall": {
+            "negative": 0.69,
+            "neutral": 0.25,
+            "positive": 0.32
+        },
+        "Train F1 Score": {
+            "negative": 0.3,
+            "neutral": 0.22,
+            "positive": 0.23
+        },
+        "Test Precision": {
+            "negative": 0.21,
+            "neutral": 0.23,
+            "positive": 0.19
+        },
+        "Test Recall": {
+            "negative": 0.69,
+            "neutral": 0.25,
+            "positive": 0.32
+        },
+        "Test F1 Score": {
+            "negative": 0.3,
+            "neutral": 0.22,
+            "positive": 0.23
+        }
+    },
+    "BART EN Stemming": {
+        "Best Hyperparameters": {
+            "lr": 0.00021810738074890754,
+            "num_layers": 5,
+            "layer_reduction": 0.3492059255655376,
+            "batch_size": 128,
+            "epochs": 30
+        },
+        "Train Accuracy": 0.48,
+        "Test Accuracy": 0.47,
+        "Train Precision": {
+            "negative": 0.3,
+            "neutral": 0.52,
+            "positive": 0.46
+        },
+        "Train Recall": {
+            "negative": 0.77,
+            "neutral": 0.39,
+            "positive": 0.47
+        },
+        "Train F1 Score": {
+            "negative": 0.42,
+            "neutral": 0.42,
+            "positive": 0.46
+        },
+        "Test Precision": {
+            "negative": 0.29,
+            "neutral": 0.52,
+            "positive": 0.45
+        },
+        "Test Recall": {
+            "negative": 0.76,
+            "neutral": 0.39,
+            "positive": 0.46
+        },
+        "Test F1 Score": {
+            "negative": 0.4,
+            "neutral": 0.42,
+            "positive": 0.45
+        }
+    },
+    "BART RU Base": {
+        "Best Hyperparameters": {
+            "lr": 0.0004929309902285203,
+            "num_layers": 5,
+            "layer_reduction": 0.7733547328314339,
+            "batch_size": 256,
+            "epochs": 30
+        },
+        "Train Accuracy": 0.54,
+        "Test Accuracy": 0.5,
+        "Train Precision": {
+            "negative": 0.42,
+            "neutral": 0.56,
+            "positive": 0.39
+        },
+        "Train Recall": {
+            "negative": 0.66,
+            "neutral": 0.53,
+            "positive": 0.41
+        },
+        "Train F1 Score": {
+            "negative": 0.49,
+            "neutral": 0.51,
+            "positive": 0.37
+        },
+        "Test Precision": {
+            "negative": 0.38,
+            "neutral": 0.52,
+            "positive": 0.34
+        },
+        "Test Recall": {
+            "negative": 0.62,
+            "neutral": 0.5,
+            "positive": 0.35
+        },
+        "Test F1 Score": {
+            "negative": 0.44,
+            "neutral": 0.47,
+            "positive": 0.32
+        }
+    },
+    "BART RU Lemmatize + StopWords": {
+        "Best Hyperparameters": {
+            "lr": 0.0001101830625250999,
+            "num_layers": 5,
+            "layer_reduction": 0.6014330892883462,
+            "batch_size": 128,
+            "epochs": 30
+        },
+        "Train Accuracy": 0.53,
+        "Test Accuracy": 0.48,
+        "Train Precision": {
+            "negative": 0.53,
+            "neutral": 0.46,
+            "positive": 0.39
+        },
+        "Train Recall": {
+            "negative": 0.68,
+            "neutral": 0.38,
+            "positive": 0.63
+        },
+        "Train F1 Score": {
+            "negative": 0.56,
+            "neutral": 0.41,
+            "positive": 0.46
+        },
+        "Test Precision": {
+            "negative": 0.47,
+            "neutral": 0.43,
+            "positive": 0.34
+        },
+        "Test Recall": {
+            "negative": 0.62,
+            "neutral": 0.36,
+            "positive": 0.56
+        },
+        "Test F1 Score": {
+            "negative": 0.5,
+            "neutral": 0.38,
+            "positive": 0.4
+        }
+    },
+    "BART RU Lemmatize": {
+        "Best Hyperparameters": {
+            "lr": 0.003975269224748983,
+            "num_layers": 5,
+            "layer_reduction": 0.460607798157274,
+            "batch_size": 128,
+            "epochs": 30
+        },
+        "Train Accuracy": 0.35,
+        "Test Accuracy": 0.34,
+        "Train Precision": {
+            "negative": 0.36,
+            "neutral": 0.25,
+            "positive": 0.23
+        },
+        "Train Recall": {
+            "negative": 0.47,
+            "neutral": 0.14,
+            "positive": 0.66
+        },
+        "Train F1 Score": {
+            "negative": 0.32,
+            "neutral": 0.18,
+            "positive": 0.33
+        },
+        "Test Precision": {
+            "negative": 0.34,
+            "neutral": 0.24,
+            "positive": 0.22
+        },
+        "Test Recall": {
+            "negative": 0.46,
+            "neutral": 0.13,
+            "positive": 0.64
+        },
+        "Test F1 Score": {
+            "negative": 0.3,
+            "neutral": 0.17,
+            "positive": 0.31
+        }
+    },
+    "BART RU Stemming + StopWords": {
+        "Best Hyperparameters": {
+            "lr": 0.00022513444045306084,
+            "num_layers": 5,
+            "layer_reduction": 0.41971664563112715,
+            "batch_size": 128,
+            "epochs": 30
+        },
+        "Train Accuracy": 0.56,
+        "Test Accuracy": 0.52,
+        "Train Precision": {
+            "negative": 0.34,
+            "neutral": 0.59,
+            "positive": 0.43
+        },
+        "Train Recall": {
+            "negative": 0.43,
+            "neutral": 0.69,
+            "positive": 0.43
+        },
+        "Train F1 Score": {
+            "negative": 0.38,
+            "neutral": 0.61,
+            "positive": 0.39
+        },
+        "Test Precision": {
+            "negative": 0.31,
+            "neutral": 0.56,
+            "positive": 0.37
+        },
+        "Test Recall": {
+            "negative": 0.39,
+            "neutral": 0.67,
+            "positive": 0.38
+        },
+        "Test F1 Score": {
+            "negative": 0.34,
+            "neutral": 0.58,
+            "positive": 0.34
+        }
+    },
+    "BART RU Stemming": {
+        "Best Hyperparameters": {
+            "lr": 0.0007043277289206145,
+            "num_layers": 5,
+            "layer_reduction": 0.7803212086567469,
+            "batch_size": 256,
+            "epochs": 30
+        },
+        "Train Accuracy": 0.46,
+        "Test Accuracy": 0.41,
+        "Train Precision": {
+            "negative": 0.47,
+            "neutral": 0.46,
+            "positive": 0.35
+        },
+        "Train Recall": {
+            "negative": 0.41,
+            "neutral": 0.36,
+            "positive": 0.74
+        },
+        "Train F1 Score": {
+            "negative": 0.39,
+            "neutral": 0.39,
+            "positive": 0.45
+        },
+        "Test Precision": {
+            "negative": 0.42,
+            "neutral": 0.43,
+            "positive": 0.3
+        },
+        "Test Recall": {
+            "negative": 0.36,
+            "neutral": 0.33,
+            "positive": 0.69
+        },
+        "Test F1 Score": {
+            "negative": 0.34,
+            "neutral": 0.36,
+            "positive": 0.4
+        }
+    },
+    "BERT CASE TAGGER RU Base": {
+        "Best Hyperparameters": {
+            "lr": 0.000533300010234346,
+            "num_layers": 5,
+            "layer_reduction": 0.6184545431423335,
+            "batch_size": 128,
+            "epochs": 30
+        },
+        "Train Accuracy": 0.79,
+        "Test Accuracy": 0.5,
+        "Train Precision": {
+            "negative": 0.72,
+            "neutral": 0.76,
+            "positive": 0.81
+        },
+        "Train Recall": {
+            "negative": 0.75,
+            "neutral": 0.75,
+            "positive": 0.93
+        },
+        "Train F1 Score": {
+            "negative": 0.74,
+            "neutral": 0.76,
+            "positive": 0.82
+        },
+        "Test Precision": {
+            "negative": 0.41,
+            "neutral": 0.52,
+            "positive": 0.43
+        },
+        "Test Recall": {
+            "negative": 0.43,
+            "neutral": 0.51,
+            "positive": 0.56
+        },
+        "Test F1 Score": {
+            "negative": 0.42,
+            "neutral": 0.51,
+            "positive": 0.44
+        }
+    },
+    "BERT CASE TAGGER RU Lemmatize + StopWords": {
+        "Best Hyperparameters": {
+            "lr": 0.0007519239976663941,
+            "num_layers": 3,
+            "layer_reduction": 0.522116839828194,
+            "batch_size": 128,
+            "epochs": 30
+        },
+        "Train Accuracy": 0.88,
+        "Test Accuracy": 0.56,
+        "Train Precision": {
+            "negative": 0.77,
+            "neutral": 0.89,
+            "positive": 0.77
+        },
+        "Train Recall": {
+            "negative": 0.79,
+            "neutral": 0.98,
+            "positive": 0.78
+        },
+        "Train F1 Score": {
+            "negative": 0.78,
+            "neutral": 0.91,
+            "positive": 0.78
+        },
+        "Test Precision": {
+            "negative": 0.41,
+            "neutral": 0.62,
+            "positive": 0.41
+        },
+        "Test Recall": {
+            "negative": 0.44,
+            "neutral": 0.72,
+            "positive": 0.37
+        },
+        "Test F1 Score": {
+            "negative": 0.42,
+            "neutral": 0.65,
+            "positive": 0.39
+        }
+    },
+    "BERT CASE TAGGER RU Lemmatize": {
+        "Best Hyperparameters": {
+            "lr": 0.0005830167099944018,
+            "num_layers": 5,
+            "layer_reduction": 0.6765581135912807,
+            "batch_size": 128,
+            "epochs": 30
+        },
+        "Train Accuracy": 0.76,
+        "Test Accuracy": 0.54,
+        "Train Precision": {
+            "negative": 0.64,
+            "neutral": 0.8,
+            "positive": 0.66
+        },
+        "Train Recall": {
+            "negative": 0.6,
+            "neutral": 0.88,
+            "positive": 0.72
+        },
+        "Train F1 Score": {
+            "negative": 0.59,
+            "neutral": 0.8,
+            "positive": 0.68
+        },
+        "Test Precision": {
+            "negative": 0.39,
+            "neutral": 0.61,
+            "positive": 0.4
+        },
+        "Test Recall": {
+            "negative": 0.37,
+            "neutral": 0.71,
+            "positive": 0.41
+        },
+        "Test F1 Score": {
+            "negative": 0.36,
+            "neutral": 0.63,
+            "positive": 0.4
+        }
+    },
+    "BERT CASE TAGGER RU Stemming + StopWords": {
+        "Best Hyperparameters": {
+            "lr": 0.0003167818687037632,
+            "num_layers": 3,
+            "layer_reduction": 0.5126556276238233,
+            "batch_size": 128,
+            "epochs": 30
+        },
+        "Train Accuracy": 0.85,
+        "Test Accuracy": 0.53,
+        "Train Precision": {
+            "negative": 0.75,
+            "neutral": 0.87,
+            "positive": 0.84
+        },
+        "Train Recall": {
+            "negative": 0.85,
+            "neutral": 0.81,
+            "positive": 0.94
+        },
+        "Train F1 Score": {
+            "negative": 0.78,
+            "neutral": 0.84,
+            "positive": 0.88
+        },
+        "Test Precision": {
+            "negative": 0.44,
+            "neutral": 0.59,
+            "positive": 0.44
+        },
+        "Test Recall": {
+            "negative": 0.48,
+            "neutral": 0.57,
+            "positive": 0.52
+        },
+        "Test F1 Score": {
+            "negative": 0.44,
+            "neutral": 0.58,
+            "positive": 0.47
+        }
+    },
+    "BERT CASE TAGGER RU Stemming": {
+        "Best Hyperparameters": {
+            "lr": 0.0007301331600672323,
+            "num_layers": 3,
+            "layer_reduction": 0.4329404600122868,
+            "batch_size": 128,
+            "epochs": 30
+        },
+        "Train Accuracy": 0.71,
+        "Test Accuracy": 0.48,
+        "Train Precision": {
+            "negative": 0.62,
+            "neutral": 0.64,
+            "positive": 0.59
+        },
+        "Train Recall": {
+            "negative": 0.68,
+            "neutral": 0.78,
+            "positive": 0.58
+        },
+        "Train F1 Score": {
+            "negative": 0.58,
+            "neutral": 0.69,
+            "positive": 0.59
+        },
+        "Test Precision": {
+            "negative": 0.34,
+            "neutral": 0.46,
+            "positive": 0.3
+        },
+        "Test Recall": {
+            "negative": 0.47,
+            "neutral": 0.6,
+            "positive": 0.26
+        },
+        "Test F1 Score": {
+            "negative": 0.36,
+            "neutral": 0.51,
+            "positive": 0.28
+        }
+    },
+    "BERT EN Base": {
+        "Best Hyperparameters": {
+            "lr": 0.00023079721197602726,
+            "num_layers": 5,
+            "layer_reduction": 0.789175222442023,
+            "batch_size": 128,
+            "epochs": 30
+        },
+        "Train Accuracy": 0.78,
+        "Test Accuracy": 0.56,
+        "Train Precision": {
+            "negative": 0.66,
+            "neutral": 0.76,
+            "positive": 0.66
+        },
+        "Train Recall": {
+            "negative": 0.67,
+            "neutral": 0.83,
+            "positive": 0.75
+        },
+        "Train F1 Score": {
+            "negative": 0.66,
+            "neutral": 0.78,
+            "positive": 0.69
+        },
+        "Test Precision": {
+            "negative": 0.33,
+            "neutral": 0.55,
+            "positive": 0.46
+        },
+        "Test Recall": {
+            "negative": 0.32,
+            "neutral": 0.65,
+            "positive": 0.53
+        },
+        "Test F1 Score": {
+            "negative": 0.32,
+            "neutral": 0.59,
+            "positive": 0.48
+        }
+    },
+    "BERT EN Lemmatize + Stopwords": {
+        "Best Hyperparameters": {
+            "lr": 0.0005848634507811902,
+            "num_layers": 4,
+            "layer_reduction": 0.6508322220930133,
+            "batch_size": 128,
+            "epochs": 30
+        },
+        "Train Accuracy": 0.85,
+        "Test Accuracy": 0.56,
+        "Train Precision": {
+            "negative": 0.72,
+            "neutral": 0.86,
+            "positive": 0.75
+        },
+        "Train Recall": {
+            "negative": 0.76,
+            "neutral": 0.95,
+            "positive": 0.75
+        },
+        "Train F1 Score": {
+            "negative": 0.74,
+            "neutral": 0.88,
+            "positive": 0.75
+        },
+        "Test Precision": {
+            "negative": 0.34,
+            "neutral": 0.6,
+            "positive": 0.47
+        },
+        "Test Recall": {
+            "negative": 0.33,
+            "neutral": 0.72,
+            "positive": 0.44
+        },
+        "Test F1 Score": {
+            "negative": 0.33,
+            "neutral": 0.64,
+            "positive": 0.46
+        }
+    },
+    "BERT EN Lemmatize": {
+        "Best Hyperparameters": {
+            "lr": 0.0003200853388196139,
+            "num_layers": 5,
+            "layer_reduction": 0.7972932592916552,
+            "batch_size": 256,
+            "epochs": 30
+        },
+        "Train Accuracy": 0.83,
+        "Test Accuracy": 0.58,
+        "Train Precision": {
+            "negative": 0.65,
+            "neutral": 0.9,
+            "positive": 0.77
+        },
+        "Train Recall": {
+            "negative": 0.78,
+            "neutral": 0.84,
+            "positive": 0.83
+        },
+        "Train F1 Score": {
+            "negative": 0.7,
+            "neutral": 0.86,
+            "positive": 0.79
+        },
+        "Test Precision": {
+            "negative": 0.35,
+            "neutral": 0.64,
+            "positive": 0.54
+        },
+        "Test Recall": {
+            "negative": 0.42,
+            "neutral": 0.65,
+            "positive": 0.56
+        },
+        "Test F1 Score": {
+            "negative": 0.38,
+            "neutral": 0.63,
+            "positive": 0.54
+        }
+    },
+    "BERT EN Stemming + Stopwords": {
+        "Best Hyperparameters": {
+            "lr": 0.0002506218926951401,
+            "num_layers": 4,
+            "layer_reduction": 0.4942538648125929,
+            "batch_size": 128,
+            "epochs": 30
+        },
+        "Train Accuracy": 0.69,
+        "Test Accuracy": 0.51,
+        "Train Precision": {
+            "negative": 0.46,
+            "neutral": 0.65,
+            "positive": 0.59
+        },
+        "Train Recall": {
+            "negative": 0.58,
+            "neutral": 0.7,
+            "positive": 0.73
+        },
+        "Train F1 Score": {
+            "negative": 0.51,
+            "neutral": 0.66,
+            "positive": 0.63
+        },
+        "Test Precision": {
+            "negative": 0.24,
+            "neutral": 0.48,
+            "positive": 0.41
+        },
+        "Test Recall": {
+            "negative": 0.29,
+            "neutral": 0.55,
+            "positive": 0.55
+        },
+        "Test F1 Score": {
+            "negative": 0.26,
+            "neutral": 0.5,
+            "positive": 0.45
+        }
+    },
+    "BERT EN Stemming": {
+        "Best Hyperparameters": {
+            "lr": 0.003118039310015871,
+            "num_layers": 4,
+            "layer_reduction": 0.42752205113462527,
+            "batch_size": 256,
+            "epochs": 30
+        },
+        "Train Accuracy": 0.77,
+        "Test Accuracy": 0.55,
+        "Train Precision": {
+            "negative": 0.65,
+            "neutral": 0.77,
+            "positive": 0.77
+        },
+        "Train Recall": {
+            "negative": 0.87,
+            "neutral": 0.7,
+            "positive": 0.82
+        },
+        "Train F1 Score": {
+            "negative": 0.74,
+            "neutral": 0.73,
+            "positive": 0.78
+        },
+        "Test Precision": {
+            "negative": 0.35,
+            "neutral": 0.57,
+            "positive": 0.58
+        },
+        "Test Recall": {
+            "negative": 0.47,
+            "neutral": 0.53,
+            "positive": 0.61
+        },
+        "Test F1 Score": {
+            "negative": 0.4,
+            "neutral": 0.55,
+            "positive": 0.57
+        }
+    },
+    "BERT RU Base": {
+        "Best Hyperparameters": {
+            "lr": 0.00042605938010470266,
+            "num_layers": 4,
+            "layer_reduction": 0.7902900690642634,
+            "batch_size": 256,
+            "epochs": 30
+        },
+        "Train Accuracy": 0.75,
+        "Test Accuracy": 0.51,
+        "Train Precision": {
+            "negative": 0.72,
+            "neutral": 0.73,
+            "positive": 0.64
+        },
+        "Train Recall": {
+            "negative": 0.83,
+            "neutral": 0.69,
+            "positive": 0.79
+        },
+        "Train F1 Score": {
+            "negative": 0.75,
+            "neutral": 0.71,
+            "positive": 0.68
+        },
+        "Test Precision": {
+            "negative": 0.45,
+            "neutral": 0.52,
+            "positive": 0.36
+        },
+        "Test Recall": {
+            "negative": 0.54,
+            "neutral": 0.5,
+            "positive": 0.46
+        },
+        "Test F1 Score": {
+            "negative": 0.47,
+            "neutral": 0.51,
+            "positive": 0.38
+        }
+    },
+    "BERT RU Lemmatize + StopWords": {
+        "Best Hyperparameters": {
+            "lr": 0.000537797119221942,
+            "num_layers": 5,
+            "layer_reduction": 0.6399019383241071,
+            "batch_size": 128,
+            "epochs": 30
+        },
+        "Train Accuracy": 0.79,
+        "Test Accuracy": 0.51,
+        "Train Precision": {
+            "negative": 0.74,
+            "neutral": 0.83,
+            "positive": 0.75
+        },
+        "Train Recall": {
+            "negative": 0.82,
+            "neutral": 0.76,
+            "positive": 0.83
+        },
+        "Train F1 Score": {
+            "negative": 0.76,
+            "neutral": 0.78,
+            "positive": 0.75
+        },
+        "Test Precision": {
+            "negative": 0.43,
+            "neutral": 0.6,
+            "positive": 0.43
+        },
+        "Test Recall": {
+            "negative": 0.51,
+            "neutral": 0.52,
+            "positive": 0.51
+        },
+        "Test F1 Score": {
+            "negative": 0.46,
+            "neutral": 0.55,
+            "positive": 0.43
+        }
+    },
+    "BERT RU Lemmatize": {
+        "Best Hyperparameters": {
+            "lr": 0.0008513554409958958,
+            "num_layers": 3,
+            "layer_reduction": 0.5976141826922963,
+            "batch_size": 256,
+            "epochs": 30
+        },
+        "Train Accuracy": 0.79,
+        "Test Accuracy": 0.52,
+        "Train Precision": {
+            "negative": 0.77,
+            "neutral": 0.76,
+            "positive": 0.74
+        },
+        "Train Recall": {
+            "negative": 0.79,
+            "neutral": 0.76,
+            "positive": 0.87
+        },
+        "Train F1 Score": {
+            "negative": 0.75,
+            "neutral": 0.76,
+            "positive": 0.78
+        },
+        "Test Precision": {
+            "negative": 0.44,
+            "neutral": 0.52,
+            "positive": 0.44
+        },
+        "Test Recall": {
+            "negative": 0.49,
+            "neutral": 0.53,
+            "positive": 0.52
+        },
+        "Test F1 Score": {
+            "negative": 0.45,
+            "neutral": 0.53,
+            "positive": 0.45
+        }
+    },
+    "BERT RU Stemming + StopWords": {
+        "Best Hyperparameters": {
+            "lr": 0.00194026139239558,
+            "num_layers": 4,
+            "layer_reduction": 0.40645902734268907,
+            "batch_size": 128,
+            "epochs": 30
+        },
+        "Train Accuracy": 0.86,
+        "Test Accuracy": 0.52,
+        "Train Precision": {
+            "negative": 0.87,
+            "neutral": 0.86,
+            "positive": 0.78
+        },
+        "Train Recall": {
+            "negative": 0.94,
+            "neutral": 0.81,
+            "positive": 0.87
+        },
+        "Train F1 Score": {
+            "negative": 0.88,
+            "neutral": 0.83,
+            "positive": 0.82
+        },
+        "Test Precision": {
+            "negative": 0.47,
+            "neutral": 0.57,
+            "positive": 0.4
+        },
+        "Test Recall": {
+            "negative": 0.54,
+            "neutral": 0.55,
+            "positive": 0.44
+        },
+        "Test F1 Score": {
+            "negative": 0.48,
+            "neutral": 0.56,
+            "positive": 0.42
+        }
+    },
+    "BERT RU Stemming": {
+        "Best Hyperparameters": {
+            "lr": 0.0005630915328821972,
+            "num_layers": 3,
+            "layer_reduction": 0.5424173359219988,
+            "batch_size": 128,
+            "epochs": 30
+        },
+        "Train Accuracy": 0.9,
+        "Test Accuracy": 0.54,
+        "Train Precision": {
+            "negative": 0.89,
+            "neutral": 0.95,
+            "positive": 0.95
+        },
+        "Train Recall": {
+            "negative": 0.94,
+            "neutral": 0.86,
+            "positive": 0.96
+        },
+        "Train F1 Score": {
+            "negative": 0.9,
+            "neutral": 0.86,
+            "positive": 0.95
+        },
+        "Test Precision": {
+            "negative": 0.5,
+            "neutral": 0.63,
+            "positive": 0.46
+        },
+        "Test Recall": {
+            "negative": 0.52,
+            "neutral": 0.58,
+            "positive": 0.5
+        },
+        "Test F1 Score": {
+            "negative": 0.49,
+            "neutral": 0.58,
+            "positive": 0.48
+        }
+    }
+}
